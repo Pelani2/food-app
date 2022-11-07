@@ -2,6 +2,8 @@
     --white: #ffffff;
     --shade-of-grey-1: #F7F7F7;
     --orange: #FA4A0C;
+    --grey: #737373;
+    --dark-blue: #252B42;
 }
 
 @media all {
@@ -103,6 +105,87 @@
     }
 }
 
-@media all and  (max-width: 414px) {
+@media all and (max-width: 414px) {
+    .promo-section {
+        background: var(--shade-of-grey-1);
+    }
 
+    .background-image {
+        display: none;
+    }
+
+    .promo-section
+    p {
+        width: 80px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: var(--grey);
+    }
+
+    .promo-section
+    h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: var(--dark-blue);
+        width: 391px;
+    }
+
+    .promo-section
+    h4 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: var(--grey);
+        width: 342px;
+    }
+
+    .promo-section
+    .button-holder {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 0 auto;
+        width: 100%;
+    }
+
+    .promo-section
+    .button-holder
+    button:nth-of-type(1) {
+        background: var(--orange);
+        box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
+        border-radius: 30px;
+        padding: 16px 58.5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--white);
+        margin-bottom: 17px;
+    }
+
+    .promo-section
+    .button-holder
+    button:nth-of-type(2) {
+        border: 1px solid var(--orange);
+        border-radius: 30px;
+        padding: 16px 56.5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: var(--orange);
+    }
 }
