@@ -6,6 +6,24 @@
     --dark-blue: #252B42;
 }
 
+.montserrat-700 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.montserrat-500 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.poppins-700 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
 @media all {
     .promo-section {
         width: 100%;
@@ -24,12 +42,8 @@
 
     .promo-section
     p {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
         font-size: 24px;
         line-height: 36px;
-        text-align: center;
         letter-spacing: 0.1px;
         color: var(--shade-of-grey-1);
         width: 119px;
@@ -38,30 +52,23 @@
 
     .promo-section
     h1 {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 58px;
-        line-height: 80px;
-        text-align: center;
-        letter-spacing: 0.2px;
-        color: var(--white);
         width: 937px;
         margin: 17px auto 0 auto;
+        font-size: 57px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        color: var(--white);
+        text-align: center;
     }
 
     .promo-section
     h4 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 38px;
-        text-align: center;
-        letter-spacing: 0.2px;
-        color: var(--shade-of-grey-1);
         width: 551px;
         margin: 17px auto 0 auto;
+        text-align: center;
+        font-size: 24px;
+        line-height: 38px;
+        color: var(--shade-of-grey-1);
     }
 
     .button-holder {
@@ -80,9 +87,6 @@
         border-radius: 30px;
         border: 0;
         padding: 16px 58.5px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
         font-size: 24px;
         line-height: 36px;
         letter-spacing: 0.1px;
@@ -95,9 +99,6 @@
         border-radius: 30px;
         background: transparent;
         padding: 16px 58px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
         font-size: 24px;
         line-height: 36px;
         letter-spacing: 0.1px;
@@ -116,38 +117,29 @@
 
     .promo-section
     p {
-        width: 80px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.1px;
         color: var(--grey);
+        width: 80px;
     }
 
     .promo-section
     h1 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
+        width: 100%;
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.2px;
         color: var(--dark-blue);
-        width: 391px;
     }
 
     .promo-section
     h4 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
+        width: 342px;
         font-size: 24px;
         line-height: 38px;
         letter-spacing: 0.2px;
         color: var(--grey);
-        width: 342px;
     }
 
     .promo-section
@@ -165,14 +157,11 @@
         box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
         border-radius: 30px;
         padding: 16px 58.5px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
+        margin-bottom: 17px;
         font-size: 24px;
         line-height: 36px;
         letter-spacing: 0.1px;
         color: var(--white);
-        margin-bottom: 17px;
     }
 
     .promo-section
@@ -181,11 +170,9 @@
         border: 1px solid var(--orange);
         border-radius: 30px;
         padding: 16px 56.5px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
         font-size: 24px;
         line-height: 36px;
+        letter-spacing: 0.1px;
         color: var(--orange);
     }
 }
