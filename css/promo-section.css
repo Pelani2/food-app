@@ -46,8 +46,8 @@
         line-height: 36px;
         letter-spacing: 0.1px;
         color: var(--shade-of-grey-1);
-        width: 119px;
         margin: 17px auto 0 auto;
+        text-align: center;
     }
 
     .promo-section
@@ -63,9 +63,7 @@
 
     .promo-section
     h4 {
-        width: 551px;
         margin: 17px auto 0 auto;
-        text-align: center;
         font-size: 24px;
         line-height: 38px;
         color: var(--shade-of-grey-1);
@@ -75,9 +73,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-direction: row;
         width: 506px;
-        margin: 54px auto 146px auto;
+        margin: 54px auto 0 auto;
     }
 
     .button-holder
