@@ -41,32 +41,37 @@
     }
 
     .promo-section
+    .text-content {
+        margin: 73px auto 0 auto;
+        width: 1005px;
+    }
+
+    .promo-section
     p {
         font-size: 24px;
         line-height: 36px;
         letter-spacing: 0.1px;
         color: var(--shade-of-grey-1);
-        margin: 17px auto 0 auto;
         text-align: center;
+        margin-bottom: 7px;
     }
 
     .promo-section
     h1 {
-        width: 937px;
-        margin: 17px auto 0 auto;
         font-size: 57px;
         line-height: 80px;
         letter-spacing: 0.2px;
         color: var(--white);
         text-align: center;
+        margin-bottom: 7px;
     }
 
     .promo-section
     h4 {
-        margin: 17px auto 0 auto;
         font-size: 24px;
         line-height: 38px;
         color: var(--shade-of-grey-1);
+        text-align: center;
     }
 
     .button-holder {
@@ -113,30 +118,37 @@
     }
 
     .promo-section
+    .text-content {
+        width: 100%;
+    }
+
+    .promo-section
     p {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.1px;
         color: var(--grey);
-        width: 80px;
+        text-align: center;
+        margin-bottom: 17px;
     }
 
     .promo-section
     h1 {
-        width: 100%;
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.2px;
         color: var(--dark-blue);
+        text-align: center;
+        margin-bottom: 27px;
     }
 
     .promo-section
     h4 {
-        width: 342px;
         font-size: 24px;
         line-height: 38px;
         letter-spacing: 0.2px;
         color: var(--grey);
+        text-align: center;
     }
 
     .promo-section
