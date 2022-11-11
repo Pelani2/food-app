@@ -4,6 +4,7 @@
     --orange: #FA4A0C;
     --grey: #737373;
     --dark-blue: #252B42;
+    --shade-of-grey-2: #E4E4E4;
 }
 
 .montserrat-700 {
@@ -24,9 +25,17 @@
     font-weight: 700;
 }
 
+.poppins-600 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* ! Desktop */
 @media all {
     .promo-section {
         width: 100%;
+        height: 700px;
         display: flex;
         flex-direction: column;
         margin-top: 28.12px;
@@ -133,8 +142,71 @@
     .phone-images__mobile {
         display: none;
     }
+
+    hr {
+        width: 884px;
+        margin: 548px auto 0 auto;
+        border: 3px solid var(--shade-of-grey-2);
+    }
+
+    .title-text {
+        margin-top: 72px;
+        text-align: center;
+        font-size: 44px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        opacity: 0.8;
+    }
+
+    .create-account-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 59px;
+    }
+
+    .create-account-section
+    img {
+        margin: 122px 0 0 247px;
+    }
+
+    .create-account-section
+    .text-content {
+        margin-right: 154px;
+        width: 568px;
+    }
+
+    .create-account-section
+    .text-content
+    h3 {
+        margin-bottom: 17px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--orange);
+    }
+
+    .create-account-section
+    .text-content
+    h2 {
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: var(--dark-blue);
+        margin-bottom: 27px;
+    }
+
+    .create-account-section
+    .text-content
+    h4 {    
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: var(--grey);
+    }
 }
 
+/* ! Telefon */
 @media all and (max-width: 414px) {
     .promo-section {
         background: var(--shade-of-grey-1);
