@@ -163,57 +163,7 @@
         letter-spacing: 0.1px;
         opacity: 0.8;
     }
-
-    .create-account-section {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 59px;
-    }
-
-    .create-account-section
-    img {
-        margin: 122px 0 0 247px;
-    }
-
-    .create-account-section
-    .text-content {
-        margin-right: 154px;
-        width: 568px;
-    }
-
-    .create-account-section
-    .text-content
-    h3 {
-        margin-bottom: 17px;
-        font-size: 24px;
-        line-height: 36px;
-        letter-spacing: 0.1px;
-        color: var(--orange);
-    }
-
-    .create-account-section
-    .text-content
-    h2 {
-        font-size: 40px;
-        line-height: 57px;
-        letter-spacing: 0.2px;
-        color: var(--dark-blue);
-        margin-bottom: 27px;
-    }
-
-    .create-account-section
-    .text-content
-    h4 {    
-        font-size: 24px;
-        line-height: 38px;
-        letter-spacing: 0.2px;
-        color: var(--grey);
-    }
-
-    hr:nth-of-type(2) {
-        display: none;
-    }
+    
 }
 
 /* ! Telefon */
@@ -344,22 +294,4 @@
         margin: 0;
     }
 
-    .create-account-section {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        width: 100%;
-    }
-
-    .create-account-section
-    .text-content {
-        width: 357px;
-        margin: 0;
-        text-align: center;
-    }
-
-    .create-account-section
-    img {
-        margin: 0;
-    }
 }
