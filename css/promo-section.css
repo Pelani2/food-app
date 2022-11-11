@@ -19,6 +19,12 @@
     font-weight: 500;
 }
 
+.montserrat-600 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
+
 .poppins-700 {
     font-family: 'Poppins';
     font-style: normal;
@@ -204,10 +210,15 @@
         letter-spacing: 0.2px;
         color: var(--grey);
     }
+
+    hr:nth-of-type(2) {
+        display: none;
+    }
 }
 
 /* ! Telefon */
 @media all and (max-width: 414px) {
+    
     .promo-section {
         background: var(--shade-of-grey-1);
     }
@@ -308,5 +319,47 @@
         width: 219px;
         height: 408px;
         margin: 84px 0 0 -30px;
+    }
+
+    hr:nth-of-type(1) {
+        display: none;
+    }
+
+    .title-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        opacity: 1;
+        color: black;
+        margin-bottom: 49px;
+    }
+
+    hr:nth-of-type(2) {
+        border: 3px solid var(--shade-of-grey-2);
+        width: 100%;
+        margin: 0;
+    }
+
+    .create-account-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .create-account-section
+    .text-content {
+        width: 357px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .create-account-section
+    img {
+        margin: 0;
     }
 }
