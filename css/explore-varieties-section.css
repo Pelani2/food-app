@@ -49,7 +49,55 @@
     }
 
     /* ! Telefon */
-    @media all (max-width: 414px {
-        
+    @media all and (max-width: 414px) {
+
+        .explore-varieties-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .explore-varieties-section
+        .text-content {
+            width: 347px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .explore-varieties-section
+        .text-content
+        h3 {
+            font-size: 0;
+            line-height: 36px;
+            letter-spacing: 0.1px;
+            margin: 0 0 40px 0;
+        }
+
+        .explore-varieties-section
+        .text-content
+        h3::before {
+            content: "Explore while shopping";
+            font-size: 24px;
+        }
+
+        .explore-varieties-section
+        .text-content
+        h2 {
+            margin: 0 0 50px 0;
+            text-align: center;
+        }
+
+        .explore-varieties-section
+        .text-content
+        h4 {
+            width: 257px;
+            text-align: center;
+        }
+
+        .explore-varieties-section
+        img {
+            margin: auto;
+        }
     }
 }
