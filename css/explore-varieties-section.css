@@ -1,0 +1,55 @@
+/* ! Desktop */
+
+@media all {
+    .explore-varieties-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .explore-varieties-section
+    .text-content {
+        margin-left: 254px;
+        width: 568px;
+        height: 100%;
+    }
+
+    .explore-varieties-section
+    .text-content
+    h3 {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--orange);
+        margin-bottom: 17px;
+    }
+
+    .explore-varieties-section
+    .text-content
+    h2 {
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        margin-bottom: 27px;
+    }
+
+    .explore-varieties-section
+    .text-content
+    h4 {
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .explore-varieties-section
+    img {
+        margin-right: 232px;
+    }
+
+    /* ! Telefon */
+    @media all (max-width: 414px {
+        
+    }
+}
