@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,79 +13,4 @@
     --grey: #737373;
     --orange: #FA4A0C;
     --sky-white: #F6F6F6;
-}
-
-/* ! Za desktop */
-@media all and (max-width: 1440px) {
-    .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 26.12px;
-    }
-
-    .nav-bar
-    .nav-logo {
-        margin-left: 70px;
-    }
-
-    .nav-bar
-    .links {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-right: 40px;
-    }
-
-    .nav-bar
-    .links
-    .link {
-        margin-left: 94px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 28px;
-        text-align: center;
-        letter-spacing: 0.2px;
-        color: var(--dark-blue);
-    }
-
-    .nav-bar
-    .links
-    .orange-link {
-        color: var(--orange);
-    }
-
-    .nav-bar
-    .hamburger {
-        display: none;
-    }
-}
-
-/* ! Za telefon */
-@media all and (max-width: 414px) {
-    .nav-bar {
-        margin-top: 17px;
-    }
-    
-    .nav-bar
-    .nav-logo {
-        margin-left: 25px;
-        width: 104px;
-        height: 51.37px;
-    }
-
-    .nav-bar
-    .links {
-        display: none;
-    }
-
-    .nav-bar
-    .hamburger {
-        display: block;
-        width: 20px;
-        height: 16px;
-        margin: 31px 23px 0 0;
-    }
 }

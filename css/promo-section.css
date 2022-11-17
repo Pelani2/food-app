@@ -1,0 +1,297 @@
+:root {
+    --white: #ffffff;
+    --shade-of-grey-1: #F7F7F7;
+    --orange: #FA4A0C;
+    --grey: #737373;
+    --dark-blue: #252B42;
+    --shade-of-grey-2: #E4E4E4;
+}
+
+.montserrat-700 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.montserrat-500 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.montserrat-600 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.poppins-700 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.poppins-600 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* ! Desktop */
+@media all {
+    .promo-section {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 28.12px;
+        position: relative;
+    }
+
+    .background-image {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 619px;
+    }
+
+    .promo-section
+    .text-content {
+        margin: 73px auto 0 auto;
+        width: 1005px;
+    }
+
+    .promo-section
+    p {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--shade-of-grey-1);
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .promo-section
+    h1 {
+        font-size: 57px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        color: var(--white);
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .promo-section
+    h4 {
+        font-size: 24px;
+        line-height: 38px;
+        color: var(--shade-of-grey-1);
+        text-align: center;
+    }
+
+    .button-holder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 506px;
+        margin: 54px auto 0 auto;
+    }
+
+    .button-holder
+    button:nth-of-type(1) {
+        background: var(--orange);
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        border: 0;
+        padding: 16px 58.5px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--white);
+    }
+
+    .button-holder
+    button:nth-of-type(2) {
+        border: 1px solid var(--white);
+        border-radius: 30px;
+        background: transparent;
+        padding: 16px 58px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--white);
+    }
+
+    .promo-section
+    .phone-images {
+        position: absolute;
+        top: 473px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .promo-section
+    .phone-images
+    img:nth-of-type(1) {
+        height: 567px;
+        z-index: 1;
+    }
+
+    .promo-section
+    .phone-images
+    img:nth-of-type(2) {
+        margin: 90px 0 0 -40px;
+    }
+
+    .phone-images__mobile {
+        display: none;
+    }
+
+    hr {
+        width: 884px;
+        margin: 548px auto 0 auto;
+        border: 3px solid var(--shade-of-grey-2);
+    }
+
+    .title-text {
+        margin-top: 72px;
+        text-align: center;
+        font-size: 44px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        opacity: 0.8;
+    }
+    
+}
+
+/* ! Telefon */
+@media all and (max-width: 414px) {
+    
+    .promo-section {
+        background: var(--shade-of-grey-1);
+    }
+
+    .background-image {
+        display: none;
+    }
+
+    .promo-section
+    .text-content {
+        width: 100%;
+    }
+
+    .promo-section
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: var(--grey);
+        text-align: center;
+        margin-bottom: 17px;
+    }
+
+    .promo-section
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: var(--dark-blue);
+        text-align: center;
+        margin-bottom: 27px;
+    }
+
+    .promo-section
+    h4 {
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: var(--grey);
+        text-align: center;
+    }
+
+    .promo-section
+    .button-holder {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 0 auto;
+        width: 100%;
+    }
+
+    .promo-section
+    .button-holder
+    button:nth-of-type(1) {
+        background: var(--orange);
+        box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
+        border-radius: 30px;
+        padding: 16px 58.5px;
+        margin-bottom: 17px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--white);
+    }
+
+    .promo-section
+    .button-holder
+    button:nth-of-type(2) {
+        border: 1px solid var(--orange);
+        border-radius: 30px;
+        padding: 16px 56.5px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: var(--orange);
+    }
+
+    .promo-section
+    .phone-images {
+        display: none;
+    }
+
+    .phone-images__mobile {
+        width: 100%;
+        margin-top: 22px;
+        display: flex;
+    }
+    
+    .phone-images__mobile
+    img:nth-of-type(1) {
+        width: 230px;
+        height: 451px;
+        z-index: 1;
+        margin-left: -10px;
+    }
+
+    .phone-images__mobile
+    img:nth-of-type(2) {
+        width: 219px;
+        height: 408px;
+        margin: 84px 0 0 -30px;
+    }
+
+    hr:nth-of-type(1) {
+        display: none;
+    }
+
+    .title-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        opacity: 1;
+        color: black;
+        margin-bottom: 49px;
+    }
+
+    hr:nth-of-type(2) {
+        border: 3px solid var(--shade-of-grey-2);
+        width: 100%;
+        margin: 0;
+    }
+
+}
