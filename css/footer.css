@@ -1,0 +1,24 @@
+@media all {
+    footer {
+        width: 1210px;
+        margin: 38px auto 53.1px auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    footer
+    .footer-logo {
+        width: 246px;
+        height: 102px;
+        object-fit: contain;
+    }
+
+    footer
+    .icon-holder {
+        width: 171px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
