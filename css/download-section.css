@@ -59,3 +59,75 @@
         background: transparent;
     }
 }
+
+@media all and (max-width: 414px) {
+    .download-section {
+        background: #252B42;
+        width: 414px;
+        height: 564px;
+    }
+
+    .download-section
+    .background-image-2 {
+        display: none;
+    }
+
+    .download-section
+    .text-content {
+        width: 330px;
+    }
+
+    .download-section
+    .text-content
+    h2, h4 {
+        margin: 0;
+    }
+
+    .download-section
+    .text-content
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .download-section
+    .text-content
+    h4 {
+        font-size: 0;
+    }
+
+    .download-section
+    .text-content
+    h4::before {
+        content: 'Most calendars are designed for teams. ';
+        font-size: 24px;
+        color: #BDBDBD;
+    }
+
+    .download-section
+    .button-holder-2 {
+        width: 339px;
+        top: 390px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .download-section
+    .button-holder-2
+    button:nth-of-type(1), button:nth-of-type(2) {
+        font-size: 0;
+    }
+
+    .download-section
+    .button-holder-2
+    button:nth-of-type(1)::before {
+        content: 'Buy now';
+        font-size: 16px;
+    }
+
+    .download-section
+    .button-holder-2
+    button:nth-of-type(2)::before {
+        content: 'Try for free';
+        font-size: 16px;
+    }
+}
