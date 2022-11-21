@@ -22,3 +22,37 @@
         align-items: center;
     }
 }
+
+@media all and (max-width: 414px) {
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer
+    .footer-logo {
+        display: none;
+    }
+
+    footer
+    .icon-holder {
+        margin-bottom: 4px;
+    }
+
+    footer
+    p {
+        margin-top: 4px;
+    }
+
+    footer
+    p
+    span {
+        display: none;
+    }
+
+    footer
+    p::after {
+        content: "Just type what's on your mind and we'll";
+    }
+}
